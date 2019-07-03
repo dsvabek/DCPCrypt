@@ -1,4 +1,4 @@
-unit DCPCrypt;    
+unit DCPEncrypt;    
 
 	// HMAC (Hash-based Message Authentication Code)
 	// PBKDF1/PBKDF2 (Password-Based Key Derivation Function 1/2)
