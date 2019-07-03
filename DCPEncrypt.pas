@@ -1,8 +1,8 @@
 unit DCPEncrypt;    
 
-	// HMAC (Hash-based Message Authentication Code)
-	// PBKDF1/PBKDF2 (Password-Based Key Derivation Function 1/2)
-	// adapted from code found at http://keit.co/p/dcpcrypt-hmac-rfc2104/
+// HMAC (Hash-based Message Authentication Code)
+// PBKDF1/PBKDF2 (Password-Based Key Derivation Function 1/2)
+// adapted from code found at http://keit.co/p/dcpcrypt-hmac-rfc2104/
 
 interface
 
@@ -15,6 +15,7 @@ interface
 	function PBKDF2(pass, salt: ansistring; count, kLen: Integer; hash: TDCP_hashclass): ansistring;	
 	
 implementation
+
     function RPad(x: string; c: Char; s: Integer): string;
       var
         i: Integer;
