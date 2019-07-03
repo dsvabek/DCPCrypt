@@ -1,4 +1,4 @@
-# DCPCrypt  
+# DCPEncrypt
 For HMAC, PBKDF1, PBKDF2
 
 *  HMAC (Hash-based Message Authentication Code)
