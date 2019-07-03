@@ -8,4 +8,4 @@ For HMAC, PBKDF1, PBKDF2
 ## Improvements
 
 * Corrected implementation of CalcHMAC used by PBKDF2 
-* added support in PBKDF2 for SHA384, SHA512 and haval
+* added support in HMAC and PBKDF2 for SHA384, SHA512 and haval
