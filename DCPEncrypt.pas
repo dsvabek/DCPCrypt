@@ -6,9 +6,9 @@ unit DCPEncrypt;
 
 interface
 
-	uses
-      DCPcrypt2, DCPsha1, DCPmd5, DCPsha512, DCPhaval,
-      DCPmd4, DCPtiger, DCPripemd128, DCPripemd160, DCPsha256, Math;	
+uses
+  DCPcrypt2, DCPsha1, DCPmd5, DCPsha512, DCPhaval,
+  DCPmd4, DCPtiger, DCPripemd128, DCPripemd160, DCPsha256, Math;	
 
 	function CalcHMAC(message, key: string; hash: TDCP_hashclass): string;			
 	function PBKDF1(pass, salt: ansistring; count: Integer; hash: TDCP_hashclass): ansistring;			
